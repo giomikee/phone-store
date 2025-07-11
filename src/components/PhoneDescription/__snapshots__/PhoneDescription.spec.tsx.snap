@@ -1,0 +1,190 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Given PhoneDescription component > When the component is rendered > And phoneDetails is not null > Then it should match the snapshot 1`] = `
+<div>
+  <div
+    class="MuiStack-root css-1sazv7p-MuiStack-root"
+  >
+    <div
+      class="MuiBox-root css-0"
+    >
+      <h3
+        class="MuiTypography-root MuiTypography-h6 css-1hgt7rk-MuiTypography-root"
+      >
+        Descripción
+      </h3>
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+      >
+        description
+      </p>
+    </div>
+    <div
+      class="MuiBox-root css-0"
+    >
+      <h3
+        class="MuiTypography-root MuiTypography-h6 css-1hgt7rk-MuiTypography-root"
+      >
+        Especificaciones
+      </h3>
+      <ul
+        class="MuiList-root MuiList-padding MuiList-dense css-b7dj7n-MuiList-root"
+      >
+        <li
+          class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-qyw6ft-MuiListItem-root"
+        >
+          <div
+            class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+            >
+              Pantalla
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+            >
+              screen
+            </p>
+          </div>
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-qyw6ft-MuiListItem-root"
+        >
+          <div
+            class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+            >
+              Resolución
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+            >
+              resolution
+            </p>
+          </div>
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-qyw6ft-MuiListItem-root"
+        >
+          <div
+            class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+            >
+              Procesador
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+            >
+              processor
+            </p>
+          </div>
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-qyw6ft-MuiListItem-root"
+        >
+          <div
+            class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+            >
+              Cámara trasera
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+            >
+              mainCamera
+            </p>
+          </div>
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-qyw6ft-MuiListItem-root"
+        >
+          <div
+            class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+            >
+              Cámara delantera
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+            >
+              selfieCamera
+            </p>
+          </div>
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-qyw6ft-MuiListItem-root"
+        >
+          <div
+            class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+            >
+              Bateria
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+            >
+              battery
+            </p>
+          </div>
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-qyw6ft-MuiListItem-root"
+        >
+          <div
+            class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+            >
+              Sistema Operativo
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+            >
+              os
+            </p>
+          </div>
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-dense MuiListItem-gutters MuiListItem-padding css-qyw6ft-MuiListItem-root"
+        >
+          <div
+            class="MuiListItemText-root MuiListItemText-dense MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-primary css-7ctihp-MuiTypography-root"
+            >
+              Refresh rate
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+            >
+              screenRefreshRate
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Given PhoneDescription component > When the component is rendered > And phoneDetails is null > Then it should match the snapshot 1`] = `
+<div>
+  <span
+    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-kkcbhd-MuiSkeleton-root"
+    style="height: 500px;"
+  />
+</div>
+`;

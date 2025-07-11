@@ -1,0 +1,67 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Given PhoneColorSelect component > When component is rendered with colorOptions={ hexCode: 'hexCode', name: 'name', imageUrl: 'imageUrl' } > Then it should match the snapshot 1`] = `
+<div>
+  <div
+    class="MuiFormControl-root MuiFormControl-fullWidth css-ytlejw-MuiFormControl-root"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-filled MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-filled css-1u43uf3-MuiFormLabel-root-MuiInputLabel-root"
+      data-shrink="false"
+      for="color-select"
+      id="color-select-label"
+    >
+      Color
+    </label>
+    <div
+      class="MuiInputBase-root MuiFilledInput-root MuiFilledInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl MuiSelect-root css-uq6ac5-MuiInputBase-root-MuiFilledInput-root-MuiSelect-root"
+      data-testid="color-select"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        aria-labelledby="color-select-label color-select"
+        class="MuiSelect-select MuiSelect-filled MuiInputBase-input MuiFilledInput-input css-1y2qbti-MuiNativeSelect-root-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input"
+        id="color-select"
+        role="combobox"
+        tabindex="0"
+      >
+        <span
+          aria-hidden="true"
+          class="notranslate"
+        >
+          ​
+        </span>
+      </div>
+      <input
+        aria-hidden="true"
+        aria-invalid="false"
+        class="MuiSelect-nativeInput css-j0riat-MuiSelect-nativeInput"
+        name="color-select"
+        tabindex="-1"
+        value=""
+      />
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconFilled css-1rfqz7c-MuiSvgIcon-root-MuiNativeSelect-root-MuiSelect-icon"
+        data-testid="ArrowDropDownIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M7 10l5 5 5-5z"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Given PhoneColorSelect component > When component is rendered with colorOptions=undefined > Then it should match the snapshot 1`] = `
+<div>
+  <span
+    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-kkcbhd-MuiSkeleton-root"
+    style="height: 32px;"
+  />
+</div>
+`;

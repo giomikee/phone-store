@@ -1,0 +1,3 @@
+npm run test:coverage
+npm run lint:validate
+npm run build

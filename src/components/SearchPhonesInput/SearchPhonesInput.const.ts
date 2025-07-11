@@ -1,0 +1,1 @@
+export const START_SEARCH_DELAY = 1000;

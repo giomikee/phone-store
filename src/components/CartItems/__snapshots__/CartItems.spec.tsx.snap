@@ -1,0 +1,192 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Given CartItems component > When the component is rendered > And phones prop has 0 phones > Then it should match the snapshot 1`] = `
+<div>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-1xrrpwr-MuiTypography-root"
+  >
+    No hay móviles en el carrito.
+  </p>
+</div>
+`;
+
+exports[`Given CartItems component > When the component is rendered > And phones prop has 2 phones > Then it should match the snapshot 1`] = `
+<div>
+  <ul
+    class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+  >
+    <li
+      class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p4qrhw-MuiListItem-root"
+    >
+      <div
+        class="MuiListItemAvatar-root css-1ulznza-MuiListItemAvatar-root"
+      >
+        <div
+          class="MuiAvatar-root MuiAvatar-circular css-fmeqll-MuiAvatar-root"
+        >
+          <img
+            alt="brand name"
+            class="MuiAvatar-img css-1su80sj-MuiAvatar-img"
+            src="imageUrl"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+        >
+          <div
+            class="MuiStack-root css-1xoy2se-MuiStack-root"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-body1 css-1o88egd-MuiTypography-root"
+            >
+              brand
+               
+              name
+            </span>
+            <span
+              class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+            >
+              (
+              3.10 €
+              )
+            </span>
+          </div>
+        </span>
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+        >
+          <span
+            class="MuiStack-root css-nen11g-MuiStack-root"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+            >
+              Color: 
+              name
+            </span>
+            <span
+              class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+            >
+              Almacenamiento: 
+              capacity
+            </span>
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiListItemSecondaryAction-root css-zezwi5-MuiListItemSecondaryAction-root"
+      >
+        <button
+          aria-label="delete"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorError MuiIconButton-sizeMedium css-j76wmq-MuiButtonBase-root-MuiIconButton-root"
+          data-testid="remove-phone-button-id_0"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+            data-testid="RemoveShoppingCartIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22.73 22.73 2.77 2.77 2 2l-.73-.73L0 2.54l4.39 4.39 2.21 4.66-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h7.46l1.38 1.38c-.5.36-.83.95-.83 1.62 0 1.1.89 2 1.99 2 .67 0 1.26-.33 1.62-.84L21.46 24zM7.42 15c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h2.36l2 2zm8.13-2c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H6.54zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2"
+            />
+          </svg>
+        </button>
+      </div>
+    </li>
+    <li
+      class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-1p4qrhw-MuiListItem-root"
+    >
+      <div
+        class="MuiListItemAvatar-root css-1ulznza-MuiListItemAvatar-root"
+      >
+        <div
+          class="MuiAvatar-root MuiAvatar-circular css-fmeqll-MuiAvatar-root"
+        >
+          <img
+            alt="brand name"
+            class="MuiAvatar-img css-1su80sj-MuiAvatar-img"
+            src="imageUrl"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+        >
+          <div
+            class="MuiStack-root css-1xoy2se-MuiStack-root"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-body1 css-1o88egd-MuiTypography-root"
+            >
+              brand
+               
+              name
+            </span>
+            <span
+              class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+            >
+              (
+              59.00 €
+              )
+            </span>
+          </div>
+        </span>
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-1a1whku-MuiTypography-root"
+        >
+          <span
+            class="MuiStack-root css-nen11g-MuiStack-root"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+            >
+              Color: 
+              name
+            </span>
+            <span
+              class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+            >
+              Almacenamiento: 
+              capacity
+            </span>
+          </span>
+        </p>
+      </div>
+      <div
+        class="MuiListItemSecondaryAction-root css-zezwi5-MuiListItemSecondaryAction-root"
+      >
+        <button
+          aria-label="delete"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorError MuiIconButton-sizeMedium css-j76wmq-MuiButtonBase-root-MuiIconButton-root"
+          data-testid="remove-phone-button-id_1"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+            data-testid="RemoveShoppingCartIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22.73 22.73 2.77 2.77 2 2l-.73-.73L0 2.54l4.39 4.39 2.21 4.66-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h7.46l1.38 1.38c-.5.36-.83.95-.83 1.62 0 1.1.89 2 1.99 2 .67 0 1.26-.33 1.62-.84L21.46 24zM7.42 15c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h2.36l2 2zm8.13-2c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H6.54zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2"
+            />
+          </svg>
+        </button>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
