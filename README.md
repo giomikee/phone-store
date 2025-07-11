@@ -72,6 +72,7 @@ Components were also shared whenever possible for reusability. To allow this, th
 
 - [NavBar](https://github.com/giomikee/phone-store/tree/main/src/components/NavBar)
 - [NavButton](https://github.com/giomikee/phone-store/tree/main/src/components/NavButton)
+- [PhoneCards](https://github.com/giomikee/phone-store/tree/main/src/components/PhoneCards)
 - [PhoneChips](https://github.com/giomikee/phone-store/tree/main/src/components/PhoneChips)
 
 Apart from reusability, features were also split into smaller components in order to keep each one as lean as possible.
