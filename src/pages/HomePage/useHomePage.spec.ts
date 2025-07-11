@@ -66,6 +66,7 @@ describe('Feature: useHomePage hook', () => {
                     (getPhones as Mock).mockRejectedValueOnce(new Error('error'));
 
                     act(async () => {
+                        vi.spyOn(console, 'error').mockImplementationOnce(vi.fn());
                         await result.current.fetchPhones();
                     });
                 });

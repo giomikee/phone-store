@@ -242,6 +242,8 @@ describe('Feature: usePhonePage hook', () => {
                         it(`Then it should navigate to ${pageName} page`, async () => {
                             const navigate = useNavigate();
 
+                            vi.spyOn(console, 'error').mockImplementationOnce(vi.fn());
+
                             (useParams as Mock).mockReturnValueOnce({ id: '1' });
                             (getPhone as Mock).mockRejectedValueOnce(error);
 

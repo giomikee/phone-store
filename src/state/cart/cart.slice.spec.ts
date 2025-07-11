@@ -48,7 +48,9 @@ describe('Feature: cart store', () => {
 
                 describe('But localStorage cart has invalid content', () => {
                     beforeAll(() => {
-                        vi.spyOn(console, 'warn').mockImplementationOnce(vi.fn());
+                        vi.spyOn(console, 'warn')
+                            .mockImplementationOnce(vi.fn())
+                            .mockImplementationOnce(vi.fn());
                         localStorageMock.getItem.mockReturnValueOnce('{');
                         dispatchResult.current(resetCart());
                         dispatchResult.current(loadCartFromStorage());
