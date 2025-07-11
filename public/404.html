@@ -17,8 +17,7 @@
                 var newPath = base + path + search + hash;
                 window.location.replace(newPath);
             } else {
-                // Inside /phone-store, redirect to index.html so React Router can pick it up
-                window.location.replace(base + '/index.html' + search + hash);
+                window.location.replace(base + search + hash);
             }
         })();
 
