@@ -1,4 +1,4 @@
-const baseUrl = import.meta.env.VITE_APP_BASE_URL || '/';
+const baseUrl = import.meta.env.VITE_APP_BASE || '/';
 
 export const PHONE_ID_PLACEHOLDER = ':id';
 export const PAGES = {
