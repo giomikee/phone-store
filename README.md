@@ -8,7 +8,7 @@ See it in action in [the project's Github pages](https://giomikee.github.io/phon
 
 ## Getting started
 
-This project requires **node 18** to run. If `nvm` is installed locally, simply run `nvm use` and it will automatically set the node version to 18 as due to the configuration in this project.
+This project requires **node 18** to run. If `nvm` is installed locally, simply run `nvm use` within the project and it will automatically set the node version to 18 as due to the configuration in this project.
 
 Install project dependencies
 
