@@ -3,6 +3,7 @@ import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import type { Props } from './AddToCart.interfaces';
 import { formatPrice } from '../../utils';
 import { useAddToCart } from './useAddToCart';
+import './AddToCart.css';
 
 const AddToCart = ({ disabled, brand, name, price, onAddToCart }: Props) => {
     const { addToCart, isSnackbarOpen, setIsSnackbarOpen }= useAddToCart(onAddToCart);
@@ -10,9 +11,15 @@ const AddToCart = ({ disabled, brand, name, price, onAddToCart }: Props) => {
 
     return (
         <Stack 
-            direction='row' 
             spacing={2}
+            gap={1}
             alignItems='center'
+            sx={{
+                flexDirection: {
+                    xs: 'column-reverse',
+                    md: 'row',
+                }
+            }}
         >
             <Button
                 color='success'
@@ -22,6 +29,12 @@ const AddToCart = ({ disabled, brand, name, price, onAddToCart }: Props) => {
                 size='large'
                 startIcon={<AddShoppingCartIcon />}
                 variant='contained'
+                sx={{
+                    width: {
+                        xs: '100%',
+                        md: 'auto'
+                    }
+                }}
             >
                 Añadir al carrito
             </Button>
@@ -29,6 +42,7 @@ const AddToCart = ({ disabled, brand, name, price, onAddToCart }: Props) => {
             {
                 price &&
                     <Typography
+                        className='add-to-cart-price'
                         color='primary'
                         component='h3'
                         data-testid='add-to-cart-price'
