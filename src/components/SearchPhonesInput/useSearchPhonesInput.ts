@@ -16,7 +16,7 @@ export function useSearchPhonesInput(onSearchLoading: (isLoading: boolean) => vo
     const isFirstRender = useRef(true);
     const [isLoading, setIsLoading] = useState(false);
     const [keywords, setKeywords] = useState('');
-    const timeoutIdRef = useRef<number | undefined>(undefined);
+    const timeoutIdRef = useRef<NodeJS.Timeout | undefined>(undefined);
     const resultsText = areSearchResultsDisplayed ? `(${searchedPhones.length} resultados)` : '';
 
     const startSearch = () => {
