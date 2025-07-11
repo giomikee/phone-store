@@ -188,6 +188,8 @@ describe('Feature: usePhonePage hook', () => {
                     const { result } = renderHook(() => usePhonePage());
 
                     beforeAll(async () => {
+                        vi.spyOn(window, 'scrollTo').mockImplementationOnce(vi.fn());
+
                         await act(async () => {
                             await result.current.getPhoneDetails();
                         });
@@ -215,6 +217,10 @@ describe('Feature: usePhonePage hook', () => {
                         await waitFor(() => {
                             expect(result.current.selectedStorage).toBeNull();
                         });
+                    });
+
+                    it('Then it should scroll to top of page', () => {
+                        expect(window.scrollTo).toHaveBeenCalledWith(0, 0);
                     });
                 });
 

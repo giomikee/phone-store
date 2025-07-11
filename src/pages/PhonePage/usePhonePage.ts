@@ -67,6 +67,8 @@ export function usePhonePage() {
             dispatch(storePhoneDetails(phoneDetails));
             setSelectedColor(null);
             setSelectedStorage(null);
+
+            window.scrollTo(0, 0);
         } catch (error) {
             console.error(error);
 
@@ -84,6 +86,10 @@ export function usePhonePage() {
             navigate(PAGES.notFound);
             return;
         }
+
+        setPhoneDetails(null);
+        setSelectedColor(null);
+        setSelectedStorage(null);
 
         const storedPhoneDetails = phones.find(phone => phone.id === id);
 
