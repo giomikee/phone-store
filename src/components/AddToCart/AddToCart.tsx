@@ -11,6 +11,7 @@ const AddToCart = ({ disabled, brand, name, price, onAddToCart }: Props) => {
 
     return (
         <Stack 
+            className='add-to-cart'
             spacing={2}
             gap={1}
             alignItems='center'
@@ -42,7 +43,7 @@ const AddToCart = ({ disabled, brand, name, price, onAddToCart }: Props) => {
             {
                 price &&
                     <Typography
-                        className='add-to-cart-price'
+                        className='add-to-cart__price'
                         color='primary'
                         component='h3'
                         data-testid='add-to-cart-price'

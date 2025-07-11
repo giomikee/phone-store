@@ -594,7 +594,7 @@ exports[`Given PhonePage component > And phoneDetails is defined > Then it shoul
         class="MuiGrid-root MuiGrid-direction-xs-row css-29aoi6-MuiGrid-root"
       >
         <div
-          class="MuiStack-root css-15bx9vo-MuiStack-root"
+          class="MuiStack-root add-to-cart css-15bx9vo-MuiStack-root"
         >
           <button
             class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorSuccess Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorSuccess css-1l4a4zd-MuiButtonBase-root-MuiButton-root"
@@ -721,7 +721,7 @@ exports[`Given PhonePage component > And phoneDetails is null > Then it should m
         class="MuiGrid-root MuiGrid-direction-xs-row css-29aoi6-MuiGrid-root"
       >
         <div
-          class="MuiStack-root css-15bx9vo-MuiStack-root"
+          class="MuiStack-root add-to-cart css-15bx9vo-MuiStack-root"
         >
           <button
             class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorSuccess Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorSuccess css-1l4a4zd-MuiButtonBase-root-MuiButton-root"

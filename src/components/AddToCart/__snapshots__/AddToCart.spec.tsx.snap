@@ -3,7 +3,7 @@
 exports[`Given AddToCart component > When the component is rendered > Then it should match the snapshot 1`] = `
 <div>
   <div
-    class="MuiStack-root css-15bx9vo-MuiStack-root"
+    class="MuiStack-root add-to-cart css-15bx9vo-MuiStack-root"
   >
     <button
       class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorSuccess MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorSuccess css-1l4a4zd-MuiButtonBase-root-MuiButton-root"
@@ -29,7 +29,7 @@ exports[`Given AddToCart component > When the component is rendered > Then it sh
       Añadir al carrito
     </button>
     <h3
-      class="MuiTypography-root MuiTypography-h5 add-to-cart-price css-5wi9gl-MuiTypography-root"
+      class="MuiTypography-root MuiTypography-h5 add-to-cart__price css-5wi9gl-MuiTypography-root"
       data-testid="add-to-cart-price"
     >
       999.00 €
