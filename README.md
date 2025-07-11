@@ -4,7 +4,7 @@ A simulated app of a phone store. Powered by "prueba-tecnica-api-tienda-moviles"
 
 See it in action in [the project's Github pages](https://giomikee.github.io/phone-store/)
 
-**Note:** Due to Github pages limitation, deeplinks other than the home page (https://giomikee.github.io/phone-store/).
+**Note:** Due to Github pages limitation, deeplinks other than the home page (https://giomikee.github.io/phone-store/) will not work for now.
 
 ## Getting started
 
