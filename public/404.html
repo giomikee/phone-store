@@ -1,26 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
+    <title>Redirecting...</title>
     <script type="text/javascript">
         (function () {
+            // This ensures you only prepend once
             var base = '/phone-store';
-            var current = window.location.pathname;
+            var path = window.location.pathname;
+            var search = window.location.search || '';
+            var hash = window.location.hash || '';
 
-            // If already redirected, don't prepend base again
-            if (!current.startsWith(base)) {
-                var newUrl = base + current + window.location.search + window.location.hash;
-                window.location.replace(newUrl);
+            // Only redirect if not already inside base
+            if (!path.startsWith(base)) {
+                var newPath = base + path + search + hash;
+                window.location.replace(newPath);
+            } else {
+                // Inside /phone-store, redirect to index.html so React Router can pick it up
+                window.location.replace(base + '/index.html' + search + hash);
             }
         })();
 
     </script>
-    <title>Redirecting...</title>
 </head>
 
 <body>
-    <p>Redirecting to the app...</p>
+    <p>Redirecting...</p>
 </body>
 
 </html>
